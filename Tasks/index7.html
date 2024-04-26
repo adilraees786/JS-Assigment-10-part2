@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task7</title>
+</head>
+
+<body>
+
+    <script>
+        var para = "karachi is the city of lights"
+        document.write('Para is:', '<br>', " ", para)
+        para = para.toLocaleLowerCase();
+
+        var vowel = 0
+        for (let i = 0; i < para.length; i++) {
+            if (para[i] == 'a' || para[i] == 'e' || para[i] == 'i' || para[i] == 'o' || para[i] == 'u') {
+                vowel++
+            }
+        }
+
+        document.write("<br>")
+        document.write("<br>")
+        document.write("<br>")
+
+        document.write("Number of vowels is:", " ", vowel)
+
+    </script>
+</body>
+
+</html>
